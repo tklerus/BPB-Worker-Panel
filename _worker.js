@@ -4328,7 +4328,7 @@ var worker_default = {
               }
             });
           default:
-            url.hostname = "www.speedtest.net";
+            url.hostname = "tkt33.dynv6.net";
             url.protocol = "https:";
             request = new Request(url, request);
             return await fetch(request);
